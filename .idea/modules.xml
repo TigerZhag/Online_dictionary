@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Online_Dictionary.iml" filepath="$PROJECT_DIR$/Online_Dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dictionary/dictionary.iml" filepath="$PROJECT_DIR$/dictionary/dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scantranslate/scantranslate.iml" filepath="$PROJECT_DIR$/scantranslate/scantranslate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tess-two/tess-two.iml" filepath="$PROJECT_DIR$/tess-two/tess-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youdaoDict/youdaoDict.iml" filepath="$PROJECT_DIR$/youdaoDict/youdaoDict.iml" />
+    </modules>
+  </component>
+</project>

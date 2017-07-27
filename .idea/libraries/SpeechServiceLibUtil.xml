@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SpeechServiceLibUtil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dictionary/libs/SpeechServiceLibUtil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

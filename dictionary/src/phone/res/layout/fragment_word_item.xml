@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <com.readboy.mobile.dictionary.view.LinearLayoutToucher
+        android:id="@+id/fragment_word_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue_1">
+
+            <com.readboy.mobile.dictionary.view.LocalHorizontalItemTab
+                android:id="@+id/fragment_word_item_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_word_item_tab_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginStart="18dp" />
+        </LinearLayout>
+
+        <com.readboy.mobile.dictionary.view.DictViewPager
+            android:id="@+id/fragment_word_item_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.readboy.mobile.dictionary.view.LinearLayoutToucher>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/light_up_grey" />
+    <!--<com.readboy.mobile.dictionary.view.DictWordControlViewGroup
+        android:id="@+id/fragment_word_item_control_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>-->
+
+</FrameLayout>

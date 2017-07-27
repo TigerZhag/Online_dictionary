@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <!-- 获得焦点但未按下时的背景图片 -->
+
+    <!--<item-->
+        <!--android:drawable="@drawable/btn_search_defult"-->
+        <!--android:state_enabled="true"-->
+        <!--android:state_focused="true"-->
+        <!--android:state_pressed="false"/>-->
+
+    <!-- 按下时的背景图片 -->
+
+    <item
+        android:drawable="@drawable/list_item_bg_2"
+        android:state_enabled="true"
+        android:state_pressed="true"/>
+
+    <item
+        android:drawable="@drawable/list_item_bg_2"
+        android:state_enabled="true"
+        android:state_focused="true"/>
+
+    <!--<item-->
+        <!--android:drawable="@drawable/btn_search_defult"/>-->
+
+</selector>
+

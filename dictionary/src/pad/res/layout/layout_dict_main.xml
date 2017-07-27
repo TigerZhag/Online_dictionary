@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.offline.view.DictMainView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dic_name">
+
+            <ImageView
+                android:id="@+id/dict_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title_langwen" />
+        </FrameLayout>
+
+        <com.readboy.offline.view.DictListView
+            android:id="@+id/dict_list_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dic_list_background"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:fadingEdgeLength="0dp"
+            android:focusable="true"
+            android:listSelector="#00000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dic_tiao_background">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_exittext_layoutleft"
+                android:background="@drawable/dict_input_window"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- 杈撳叆妗� -->
+                <EditText
+                    android:id="@+id/dict_input_id"
+                    android:layout_width="@dimen/main_exittext_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/main_exittext_layoutright"
+                    android:background="@null"
+                    android:focusableInTouchMode="true"
+                    android:gravity="left|center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="textVisiblePassword"
+                    android:maxLength="50"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="22dp" />
+                <!-- 娓呴櫎 -->
+                <Button
+                    android:id="@+id/dict_clear_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/dict_button_clear"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:visibility="invisible" />
+                <!-- 璺虫煡 -->
+                <Button
+                    android:id="@+id/dict_search_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/dict_button_jump_search"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp" />
+            </LinearLayout>
+
+            <!-- 鍙栬瘝 -->
+            <Button
+                android:id="@+id/dict_quci_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/dict_qc" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/main_exittext_layoutleft"
+                android:paddingRight="20dp"
+                android:paddingTop="27dp">
+
+                <com.readboy.depict.widget.DemonstrationGroup
+                    android:id="@+id/wordStrokes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:visibility="gone" />
+
+                <com.readboy.library.gif.GifView
+                    android:id="@+id/dict_explain_gif"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="4dp"
+                    android:enabled="false"
+                    android:visibility="gone" />
+
+                <com.readboy.dict.DictWordView
+                    android:id="@+id/dict_exp_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingRight="16dp"
+                    android:scrollbars="vertical"
+                    android:soundEffectsEnabled="false"
+                    android:tag="24" />
+
+                <include
+                    layout="@layout/layout_horizontal_buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/view_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</com.readboy.offline.view.DictMainView>

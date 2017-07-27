@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dictNames">
+        <item>笔画字典</item>
+        <item>成语汉语</item>
+        <item>朗文当代</item>
+        <item>动漫词典</item>
+        <item>古代汉语</item>
+        <item>汉英词典</item>
+        <item>现代汉语</item>
+        <item>简明汉英</item>
+        <item>学生汉语</item>
+        <item>英汉词典</item>
+        <item>英英词典</item>
+    </string-array>
+
+
+</resources>

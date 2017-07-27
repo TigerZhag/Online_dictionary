@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.offline.view.DictSearchView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/mainHeight"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dic_name">
+
+        <ImageView
+            android:id="@+id/dict_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_langwen"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/dict_quci_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/dict_qc_cancel" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.readboy.depict.widget.DemonstrationGroup
+            android:id="@+id/search_bihua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <com.readboy.dict.DictWordView
+            android:id="@+id/dict_exp_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="6dp"
+            android:scrollbars="vertical"
+            android:soundEffectsEnabled="false"
+            android:tag="24" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                layout="@layout/layout_horizontal_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="62dp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.readboy.offline.view.DictSearchView>

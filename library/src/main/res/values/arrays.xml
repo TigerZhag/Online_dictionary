@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字典ID -->
+    <integer name="DICT_ID_BIHUA"     >0</integer>      <!-- 笔画 -->
+    <integer name="DICT_ID_HANCHENG"  >1</integer>      <!-- 汉成 -->
+    <integer name="DICT_ID_LANGWEN"   >2</integer>      <!-- 朗文 -->
+    <integer name="DICT_ID_DONGMAN"   >3</integer>      <!-- 动漫 -->
+    <integer name="DICT_ID_GUHAN"     >4</integer>      <!-- 古汉 -->
+    <integer name="DICT_ID_HANYING"   >5</integer>      <!-- 汉英 -->
+    <integer name="DICT_ID_XIANHAN"   >6</integer>      <!-- 现汉 -->
+    <integer name="DICT_ID_JIANHAN"   >7</integer>      <!-- 简汉 -->
+    <integer name="DICT_ID_XUEHAN"    >8</integer>      <!-- 学汉 -->
+    <integer name="DICT_ID_YINGHAN"   >9</integer>      <!-- 英汉 -->
+    <integer name="DICT_ID_YINGYING"  >10</integer>     <!-- 英英 -->
+    <integer name="DICT_ID_SHENGCI"   >11</integer>     <!-- 生词 -->
+
+    <!-- 英文取词的字典ID -->
+    <integer-array name="dict_search_eng_id">
+        <item >2</item>
+        <item >9</item>
+        <item >10</item>
+    </integer-array>
+    <!-- 中文屏幕取词的字典ID -->
+    <integer-array name="dict_select_chi_id">
+        <item >5</item>
+        <item >1</item>
+        <item >6</item>
+    </integer-array>
+    <!-- 中文跳查的字典ID -->
+    <integer-array name="dict_search_chi_id">
+        <item >5</item>
+        <item >4</item>
+        <item >6</item>
+        <item >1</item>
+        <item >7</item>
+        <item >8</item>
+        <item >0</item>
+    </integer-array>
+
+    <string-array name="dict_select_eng_list">
+        <item >朗文当代</item>
+        <item >英汉词典</item>
+        <item >英英词典</item>
+    </string-array>
+    <string-array name="dict_select_chi_list">
+        <item >实用汉英</item>
+        <item >成语词典</item>
+        <item >现代汉语</item>
+    </string-array>
+
+    <string-array name="dict_name_list">
+        <item >笔画字典</item>
+        <item >成语词典</item>
+        <item >朗文当代</item>
+        <item >动漫词典</item>
+        <item >古代汉语</item>
+        <item >实用汉英</item>
+        <item >现代汉语</item>
+        <item >简明汉英</item>
+        <item >学生汉语</item>
+        <item >实用英汉</item>
+        <item >英英词典</item>
+        <item >生词库</item>
+    </string-array>
+
+
+
+</resources>

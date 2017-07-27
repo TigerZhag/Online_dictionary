@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ZhReadBoySingleTouchFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="colorPrimary">@color/main_box_bg_color</item>
+        <item name="colorPrimaryDark">@color/main_box_bg_color</item>
+        <item name="colorAccent">@color/main_box_bg_color</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Main" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="colorPrimary">@color/main_box_bg_color</item>
+        <item name="colorPrimaryDark">@color/main_box_bg_color</item>
+        <item name="colorAccent">@color/main_box_bg_color</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Data" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="colorPrimary">@color/dark_blue_1</item>
+        <item name="colorPrimaryDark">@color/dark_blue_1</item>
+        <item name="colorAccent">@color/dark_blue_1</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Scan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="colorPrimary">@color/dark_blue_4</item>
+        <item name="colorPrimaryDark">@color/dark_blue_4</item>
+        <item name="colorAccent">@color/dark_blue_4</item>
+    </style>
+</resources>

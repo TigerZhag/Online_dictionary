@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="senlib-1.0.30">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/3589042b259caa858bf8a6b3b791fa23f783efdb/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3589042b259caa858bf8a6b3b791fa23f783efdb/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sen.lib/senlib/1.0.30/601a7242301c07643af5c62830071463c18e27f8/senlib-1.0.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

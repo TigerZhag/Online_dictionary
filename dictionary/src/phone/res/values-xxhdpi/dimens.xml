@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fragment_main_box_height">1128px</dimen>
+    <dimen name="fragment_main_search_button_width">318px</dimen>
+    <dimen name="fragment_main_search_button_height">318px</dimen>
+    <dimen name="fragment_main_title_width">360px</dimen>
+    <dimen name="fragment_main_title_height">84px</dimen>
+
+    <dimen name="fragment_main_title_margin_top">32dp</dimen>
+    <dimen name="fragment_main_tip_margin_bottom">40dp</dimen>
+    <dimen name="fragment_main_text_1_start">8dp</dimen>
+    <dimen name="fragment_main_text_1_end">8dp</dimen>
+    <dimen name="fragment_main_text_size_1">20dp</dimen>
+
+    <dimen name="adapter_item_auto_text_height">45dp</dimen>
+    <dimen name="adapter_item_auto_text_padding_left">14dp</dimen>
+    <dimen name="adapter_item_auto_text_size">17dp</dimen>
+
+    <dimen name="btn_grid_view_item_dict_bg_width">300px</dimen>
+    <dimen name="btn_grid_view_item_dict_bg_height">78px</dimen>
+    <dimen name="btn_grid_view_item_text_width">300px</dimen>
+    <dimen name="btn_grid_view_item_text_height">78px</dimen>
+    <dimen name="btn_grid_view_item_text_size">15dp</dimen>
+
+    <dimen name="fragment_animation_word_gif_height">720px</dimen>
+    <dimen name="fragment_animation_word_gif_margin_left">16dp</dimen>
+    <dimen name="fragment_animation_word_gif_margin_right">16dp</dimen>
+    <dimen name="fragment_animation_word_gif_margin_top">16dp</dimen>
+    <dimen name="fragment_animation_word_customradiuslinearlayout_margin_bottom">16dp</dimen>
+    <dimen name="fragment_animation_word_customradiuslinearlayout_margin_left">16dp</dimen>
+    <dimen name="fragment_animation_word_customradiuslinearlayout_margin_right">16dp</dimen>
+    <dimen name="fragment_animation_word_customradiuslinearlayout_padding_left">16dp</dimen>
+    <dimen name="fragment_animation_word_sound_width">78px</dimen>
+    <dimen name="fragment_animation_word_sound_height">78px</dimen>
+    <dimen name="fragment_animation_word_sound_margin_top">16dp</dimen>
+    <dimen name="fragment_animation_word_sound_margin_bottom">8dp</dimen>
+    <dimen name="fragment_animation_word_view_padding_left">16dp</dimen>
+    <dimen name="fragment_animation_word_view_padding_rgiht">16dp</dimen>
+
+    <dimen name="fragment_hot_word_contain_1_margin_left">16dp</dimen>
+    <dimen name="fragment_hot_word_contain_1_margin_right">16dp</dimen>
+    <dimen name="fragment_hot_word_contain_1_margin_top">16dp</dimen>
+    <dimen name="fragment_hot_word_contain_2_wdith">48px</dimen>
+    <dimen name="fragment_hot_word_contain_2_height">60px</dimen>
+    <dimen name="fragment_hot_word_contain_2_margin_right">14dp</dimen>
+    <dimen name="fragment_hot_word_gridview_margin_top">18dp</dimen>
+    <dimen name="fragment_hot_word_gridview_horizontal_spacing">12dp</dimen>
+    <dimen name="fragment_hot_word_gridview_vertical_spacing">18dp</dimen>
+
+    <dimen name="fragment_hot_word_2_contain_1_height">28dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_1_padding_left">16dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_1_text_size">15dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_2_margin_left">16dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_2_margin_right">16dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_2_margin_top">16dp</dimen>
+    <dimen name="fragment_hot_word_2_contain_3_width">48px</dimen>
+    <dimen name="fragment_hot_word_2_contain_3_height">60px</dimen>
+    <dimen name="fragment_hot_word_2_contain_3_margin_right">14dp</dimen>
+    <dimen name="fragment_hot_word_2_gridview_margin_top">18dp</dimen>
+    <dimen name="fragment_hot_word_2_gridview_horizontal_spacing">12dp</dimen>
+    <dimen name="fragment_hot_word_2_gridview_vertical_spacing">12dp</dimen>
+
+    <dimen name="fragment_record_word_contain_1_margin_bottom">24dp</dimen>
+    <dimen name="fragment_record_word_contain_1_margin_left">16dp</dimen>
+    <dimen name="fragment_record_word_contain_1_margin_right">16dp</dimen>
+    <dimen name="fragment_record_word_contain_1_margin_top">23dp</dimen>
+    <dimen name="fragment_record_word_contain_2_width">48px</dimen>
+    <dimen name="fragment_record_word_contain_2_height">60px</dimen>
+    <dimen name="fragment_record_word_contain_2_margin_right">14dp</dimen>
+    <dimen name="fragment_record_word_gridview_margin_top">15dp</dimen>
+    <dimen name="fragment_record_word_gridview_horizontal_spacing">12dp</dimen>
+    <dimen name="fragment_record_word_gridview_vertical_spacing">12dp</dimen>
+    <dimen name="fragment_record_word_clear_height">111px</dimen>
+    <dimen name="fragment_record_word_contain_3_width">48px</dimen>
+    <dimen name="fragment_record_word_contain_3_height">48px</dimen>
+    <dimen name="fragment_record_word_contain_3_margin_right">5dp</dimen>
+    <dimen name="fragment_record_word_contain_4_text_size">16dp</dimen>
+
+    <dimen name="fragment_search_box_height">43dp</dimen>
+    <dimen name="fragment_search_back_width">129px</dimen>
+    <dimen name="fragment_search_back_height">144px</dimen>
+    <dimen name="fragment_search_contain_1_height">108px</dimen>
+    <dimen name="fragment_search_edittext_margin_left">5dp</dimen>
+    <dimen name="fragment_search_edittext_text_size">15dp</dimen>
+    <dimen name="fragment_search_delete_width">48px</dimen>
+    <dimen name="fragment_search_delete_height">48px</dimen>
+    <dimen name="fragment_search_delete_margin_left">5dp</dimen>
+    <dimen name="fragment_search_delete_margin_right">5dp</dimen>
+    <dimen name="fragment_search_button_width">72px</dimen>
+    <dimen name="fragment_search_button_height">72px</dimen>
+    <dimen name="fragment_search_button_margin_left">10dp</dimen>
+    <dimen name="fragment_search_button_margin_right">16dp</dimen>
+
+    <dimen name="fragment_select_word_content_contain_1_height">144px</dimen>
+    <dimen name="fragment_select_word_exit_width">129px</dimen>
+    <dimen name="fragment_select_word_exit_height">144px</dimen>
+    <dimen name="fragment_select_word_title_padding_left">-32dp</dimen>
+    <dimen name="fragment_select_word_title_text_size">17dp</dimen>
+    <dimen name="fragment_select_word_content_contain_2_margin_top">16dp</dimen>
+    <dimen name="fragment_select_word_sound_width">78px</dimen>
+    <dimen name="fragment_select_word_sound_height">78px</dimen>
+    <dimen name="fragment_select_word_sound_margin_left">16dp</dimen>
+    <dimen name="fragment_select_word_sound_margin_top">16dp</dimen>
+    <dimen name="fragment_select_word_sound_margin_bottom">8dp</dimen>
+    <dimen name="fragment_select_word_content_view_padding_left">16dp</dimen>
+    <dimen name="fragment_select_word_content_view_padding_right">16dp</dimen>
+
+    <dimen name="fragment_sound_animation_view_width">216px</dimen>
+    <dimen name="fragment_sound_animation_view_height">216px</dimen>
+
+    <dimen name="fragment_stroke_view_exit_width">54px</dimen>
+    <dimen name="fragment_stroke_view_exit_height">54px</dimen>
+    <dimen name="fragment_stroke_view_exit_margin_right">16dp</dimen>
+    <dimen name="fragment_stroke_view_exit_margin_top">48px</dimen>
+    <dimen name="fragment_stroke_view_sound_width">78px</dimen>
+    <dimen name="fragment_stroke_view_sound_height">78px</dimen>
+    <dimen name="fragment_stroke_view_sound_margin_top">138px</dimen>
+    <dimen name="fragment_stroke_view_contain_1_width">1032px</dimen>
+    <dimen name="fragment_stroke_view_contain_1_height">861px</dimen>
+    <dimen name="fragment_stroke_view_contain_1_margin_top">100dp</dimen>
+    <dimen name="fragment_stroke_view_contain_2_margin_left">216px</dimen>
+    <dimen name="fragment_stroke_view_contain_2_margin_right">216px</dimen>
+    <dimen name="fragment_stroke_view_contain_2_margin_top">144px</dimen>
+    <dimen name="fragment_stroke_view_button_demo_width">216px</dimen>
+    <dimen name="fragment_stroke_view_button_demo_height">216px</dimen>
+    <dimen name="fragment_stroke_view_button_write_width">216px</dimen>
+    <dimen name="fragment_stroke_view_button_write_height">216px</dimen>
+    <dimen name="fragment_stroke_view_button_rewrite_width">216px</dimen>
+    <dimen name="fragment_stroke_view_button_rewrite_height">216px</dimen>
+
+    <dimen name="fragment_stroke_view_sound_1_width">78px</dimen>
+    <dimen name="fragment_stroke_view_sound_1_height">78px</dimen>
+    <dimen name="fragment_stroke_view_sound_1_margin_left">16dp</dimen>
+    <dimen name="fragment_stroke_view_sound_1_margin_top">16dp</dimen>
+    <dimen name="fragment_stroke_view_sound_1_margin_bottom">8dp</dimen>
+    <dimen name="fragment_stroke_word_contain_1_margin_bottom">20dp</dimen>
+    <dimen name="fragment_stroke_word_contain_1_margin_top">16dp</dimen>
+    <dimen name="fragment_stroke_word_demo_view_width">495px</dimen>
+    <dimen name="fragment_stroke_word_demo_view_height">409.5px</dimen>
+    <dimen name="fragment_stroke_view_play_width">87px</dimen>
+    <dimen name="fragment_stroke_view_play_height">72px</dimen>
+    <dimen name="fragment_stroke_word_tab_height">27dp</dimen>
+    <dimen name="fragment_stroke_single_word_view_padding_left">16dp</dimen>
+    <dimen name="fragment_stroke_single_word_view_padding_right">16dp</dimen>
+
+    <dimen name="fragment_stroke_word_content_view_padding_left">16dp</dimen>
+    <dimen name="fragment_stroke_word_content_view_padding_right">16dp</dimen>
+
+    <dimen name="fragment_word_content_contain_1_margin_top">16dp</dimen>
+    <dimen name="fragment_word_content_sound_width">78px</dimen>
+    <dimen name="fragment_word_content_sound_height">78px</dimen>
+    <dimen name="fragment_word_content_sound_margin_top">16dp</dimen>
+    <dimen name="fragment_word_content_sound_margin_bottom">8dp</dimen>
+    <dimen name="fragment_word_content_sound_margin_left">16dp</dimen>
+    <dimen name="fragment_word_content_view_padding_left">16dp</dimen>
+    <dimen name="fragment_word_content_view_padding_right">16dp</dimen>
+
+    <dimen name="fragment_word_item_tab_height">27dp</dimen>
+    <dimen name="fragment_word_item_tab_margin_left">15px</dimen>
+    <dimen name="fragment_word_item_tab_margin_right">15px</dimen>
+
+    <dimen name="gridview_item_dict_bg_width">300px</dimen>
+    <dimen name="gridview_item_dict_bg_height">78px</dimen>
+    <dimen name="gridview_item_dict_word_width">300px</dimen>
+    <dimen name="gridview_item_dict_word_height">78px</dimen>
+    <dimen name="gridview_item_dict_word_padding_left">3dp</dimen>
+    <dimen name="gridview_item_dict_word_padding_right">3dp</dimen>
+    <dimen name="gridview_item_dict_word_text_size">17dp</dimen>
+
+    <dimen name="item_dict_stroke_tab_name_text_size">15dp</dimen>
+
+    <dimen name="item_dict_name_text_size">14dp</dimen>
+
+    <dimen name="layout_button_open_contain_1_width">147px</dimen>
+    <dimen name="layout_button_open_contain_1_height">150px</dimen>
+    <dimen name="button_open_float_cross_width">69px</dimen>
+    <dimen name="button_open_float_cross_height">69px</dimen>
+
+    <dimen name="popu_select_dictionary_button_1_width">339px</dimen>
+    <dimen name="popu_select_dictionary_button_1_height">126px</dimen>
+    <dimen name="popu_select_dictionary_button_1_margin_bottom">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_1_margin_top">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_1_text_size">15dp</dimen>
+    <dimen name="popu_select_dictionary_button_2_width">339px</dimen>
+    <dimen name="popu_select_dictionary_button_2_height">126px</dimen>
+    <dimen name="popu_select_dictionary_button_2_margin_bottom">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_2_margin_top">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_2_text_size">15dp</dimen>
+    <dimen name="popu_select_dictionary_button_3_width">339px</dimen>
+    <dimen name="popu_select_dictionary_button_3_height">126px</dimen>
+    <dimen name="popu_select_dictionary_button_3_margin_bottom">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_3_margin_top">2dp</dimen>
+    <dimen name="popu_select_dictionary_button_3_text_size">15dp</dimen>
+
+    <dimen name="control_button_width">147px</dimen>
+    <dimen name="control_button_height">150px</dimen>
+
+    <dimen name="bg_search_edittext_radius">5dp</dimen>
+
+</resources>

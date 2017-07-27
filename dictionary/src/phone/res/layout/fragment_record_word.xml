@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_record_word_contain_1_margin_bottom"
+        android:layout_marginLeft="@dimen/fragment_record_word_contain_1_margin_left"
+        android:layout_marginRight="@dimen/fragment_record_word_contain_1_margin_right"
+        android:layout_marginTop="@dimen/fragment_record_word_contain_1_margin_top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/fragment_record_word_contain_2_margin_right"
+                android:background="@drawable/icon_record" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/lately_word_search" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/fragment_record_word_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_record_word_gridview_margin_top"
+            android:horizontalSpacing="@dimen/fragment_record_word_gridview_horizontal_spacing"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/fragment_record_word_gridview_vertical_spacing" />
+
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_up_grey" />
+
+    <FrameLayout
+        android:id="@+id/fragment_record_word_clear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_record_word_clear_height"
+        android:background="@drawable/btn_bg_1"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button_clear"
+            android:textColor="@drawable/btn_text_2"
+            android:textSize="@dimen/fragment_record_word_contain_4_text_size" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_up_grey" />
+
+</LinearLayout>

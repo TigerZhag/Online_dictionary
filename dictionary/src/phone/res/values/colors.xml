@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translate">#00000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="dark_overlay">#cc000000</color>
+    <color name="dic_name">#FF6702</color>
+    <color name="dic_tiao_background">#FF9102</color>
+    <color name="dic_list_background">#dcefefef</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="light_grey_1">#f2f2f2</color>
+    <color name="light_grey_2">#7c5f5f</color>
+    <color name="light_grey_3">#e8e8e8</color>
+    <color name="light_grey_4">#ebebeb</color>
+    <color name="light_grey_5">#939393</color>
+    <color name="light_grey_6">#ececec</color>
+    <color name="light_grey_7">#bbffffff</color>
+    <color name="light_grey_8">#cdcdcd</color>
+    <color name="light_grey_9">#b2b2b2</color>
+    <color name="dark_grey">#f8f8f8</color>
+    <color name="middle_grey">#f5f5f5</color>
+    <color name="light_up_grey">#efefef</color>
+    <color name="light_green">#34d110</color>
+    <color name="light_blue">#badbf8</color>
+    <color name="dark_blue_1">#2a7dee</color>
+    <color name="dark_blue_4">#2d80f1</color>
+    <color name="light_red_1">#ffece8</color>
+    <color name="light_red_2">#ff4200</color>
+    <color name="light_red_3">#e3664d</color>
+    <color name="dark_red_1">#2e7ff2</color>
+    <color name="dark_red_2">#929294</color>
+    <color name="dark_red_3">#fff7f7</color>
+    <color name="dark_red_4">#ffece8</color>
+    <color name="dark_blue_2">#628bf3</color>
+    <color name="dark_blue_3">#6c89d5</color>
+    <color name="dark_yellow_1">#f48800</color>
+
+    <color name="dict_bh_item_color">#ff68a8</color>
+    <color name="dict_lw_item_color">#3abcff</color>
+    <color name="dict_yh_item_color">#67d244</color>
+    <color name="dict_cy_item_color">#ffca00</color>
+    <color name="dict_dm_item_color">#aedb25</color>
+    <color name="dict_hy_item_color">#35bba6</color>
+    <color name="dict_xd_item_color">#ff8b00</color>
+
+    <color name="scan_word_text_color">#ff7124</color>
+    <color name="recognizing_text_color">#2ad8b3</color>
+    <color name="text_bg_1_nor">#12b7f9</color>
+    <color name="text_bg_1_press">#12d0f9</color>
+    
+    <color name="main_box_bg_color">#2460cf</color>
+    <color name="sub_title_color">#8e8d92</color>
+    <color name="bg_dict_item_bg_stroke_color">#ff9e21</color>
+    <color name="cancel_text_color">#007aff</color>
+</resources>

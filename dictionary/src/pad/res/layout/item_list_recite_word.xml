@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText,SpUsage"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="42dip"
+    android:textColor="#ff000000"
+    android:textSize="20dp"
+    android:text="word"
+    android:gravity="center_vertical"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:drawableLeft="@drawable/selector_checkbox"
+    android:paddingLeft="6dip"/>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="mobile_app_name">Dictionary</string>
+
+    <string name="hot_word_search">热门搜索</string>
+    <string name="lately_word_search">最近搜索</string>
+    <string name="button_demo">演示</string>
+    <string name="button_write">写一写</string>
+    <string name="button_rewrite">重写</string>
+    <string name="button_exit">关闭</string>
+    <string name="button_clear">清除历史记录</string>
+    <string name="hot_word_tip">没有找到这个词，快来热门搜索吧~</string>
+    <string name="search_tip">请输入搜索关键字</string>
+    <string name="tip_click_to_search">点击进行搜索</string>
+    <string name="tip_slected_world_is_open">滑屏取词已启动</string>
+    <string name="tip_slected_world_is_close">滑屏取词已关闭</string>
+    <string name="tip_searched_world_failed">找不到这个字词，试试其它词典吧~</string>
+    <string name="title_summary">快速 精准 权威</string>
+
+    <string name="net_not_smooth">网络不畅</string>
+    <string name="no_internet">网络异常,请检查您的网络是否正常连接</string>
+    <string name="error_internet">网络连接失败</string>
+    <string name="generic_error">网络有点慢，请重试</string>
+    <string name="recognizing">识别中</string>
+    <string name="listening">倾听中</string>
+    <string name="voiceInitFail">正在努力连接中...</string>
+    <string name="timeOut">搜索超时了，请重试</string>
+    <string name="netFail">网络异常</string>
+    <string name="resultError">非法结果</string>
+    <string name="noVoice">您好像还没有说话哦！</string>
+    <string name="recordFail">录音启动失败</string>
+
+    <string name="text_size">Text Size</string>
+    <string name="get_text">Select Text</string>
+    <string name="search_result">Result</string>
+    <string name="scan_word">Scan Word</string>
+    <string name="text_search">Text Search</string>
+    <string name="voice_search">Voice Search</string>
+    <string name="voice_recognite_tip">Please to say!</string>
+    <string name="state_recognizing">Recognizing...</string>
+    <string name="end_speaking">End Speaking!</string>
+    <string name="click_voice_recognite_button_tip">Please click the micro phone!</string>
+
+    <string name="cancel">cancel</string>
+
+    <string name="stroke_demo">Demo</string>
+    <string name="stroke_write">Write</string>
+    <string name="stroke_score">Score</string>
+
+    <string name="search_world_failed">Can not found the world!</string>
+
+    <string name="back_text">Back</string>
+    <string name="loading_text">Loading...</string>
+
+    <string name="illegal_text_tip">Illegal string!</string>
+</resources>

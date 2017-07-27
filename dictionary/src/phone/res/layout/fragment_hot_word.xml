@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fragment_hot_word_contain_1_margin_left"
+        android:layout_marginRight="@dimen/fragment_hot_word_contain_1_margin_right"
+        android:layout_marginTop="@dimen/fragment_hot_word_contain_1_margin_top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/sub_title_textsize"
+                android:textColor="@color/sub_title_color"
+                android:text="@string/hot_word_search" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/fragment_hot_word_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fragment_hot_word_gridview_margin_top"
+            android:horizontalSpacing="@dimen/fragment_hot_word_gridview_horizontal_spacing"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/fragment_hot_word_gridview_vertical_spacing" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

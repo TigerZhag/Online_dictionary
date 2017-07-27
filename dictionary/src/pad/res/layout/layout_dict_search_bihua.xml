@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.offline.view.DictSearchBiHuaView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dic_name">
+
+            <ImageView
+                android:id="@+id/dict_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title_langwen"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/dict_list_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dic_list_background"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:fadingEdgeLength="0dp"
+            android:focusable="true"
+            android:listSelector="#00000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dic_tiao_background">
+
+            <!-- 取词 -->
+            <Button
+                android:id="@+id/dict_quci_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/dict_qc" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/main_exittext_layoutleft"
+            android:paddingRight="20dp"
+            android:paddingTop="27dp">
+
+            <com.readboy.depict.widget.DemonstrationGroup
+                android:id="@+id/wordStrokes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:visibility="gone" />
+
+            <com.readboy.dict.DictWordView
+                android:id="@+id/dict_exp_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:paddingRight="16dp"
+                android:scrollbars="vertical"
+                android:soundEffectsEnabled="false"
+                android:tag="24" />
+
+            <include
+                layout="@layout/layout_horizontal_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.readboy.offline.view.DictSearchBiHuaView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.mobile.dictionary.view.TrangleLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_select_word_dialog"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/popu_select_dictionary_button_1"
+            android:layout_width="@dimen/popu_select_dictionary_button_1_width"
+            android:layout_height="@dimen/popu_select_dictionary_button_1_height"
+            android:layout_marginBottom="@dimen/popu_select_dictionary_button_1_margin_bottom"
+            android:layout_marginTop="@dimen/popu_select_dictionary_button_1_margin_top"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popu_select_dictionary_button_1_text_size"
+            android:fontFamily="readboy-code"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/popu_select_dictionary_button_2"
+            android:layout_width="@dimen/popu_select_dictionary_button_2_width"
+            android:layout_height="@dimen/popu_select_dictionary_button_2_height"
+            android:layout_marginBottom="@dimen/popu_select_dictionary_button_2_margin_bottom"
+            android:layout_marginTop="@dimen/popu_select_dictionary_button_2_margin_top"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popu_select_dictionary_button_2_text_size"
+            android:fontFamily="readboy-code"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/popu_select_dictionary_button_3"
+            android:layout_width="@dimen/popu_select_dictionary_button_3_width"
+            android:layout_height="@dimen/popu_select_dictionary_button_3_height"
+            android:layout_marginBottom="@dimen/popu_select_dictionary_button_3_margin_bottom"
+            android:layout_marginTop="@dimen/popu_select_dictionary_button_3_margin_top"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/popu_select_dictionary_button_3_text_size"
+            android:fontFamily="readboy-code"/>
+
+    </LinearLayout>
+
+</com.readboy.mobile.dictionary.view.TrangleLinearLayout>

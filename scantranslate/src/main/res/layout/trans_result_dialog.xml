@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/trans_result_dialog_bg"
+    android:paddingLeft="28dp"
+    android:paddingRight="28dp"
+    android:paddingTop="10dp"
+    android:minWidth="280dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/trans_query"
+        android:text="meet [mit]"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textSize="17dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/trans_result"
+        android:text="vt. 满足;遇见;对付 \nvi. 相遇; 接触\nn. 集会\nadj. 合适的;适宜的\nn. (Meet)人名; (英)米特"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:lineSpacingExtra="8dp"
+        android:maxLines="6"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/trans_more"
+        android:text="@string/scanner_more"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+</LinearLayout>

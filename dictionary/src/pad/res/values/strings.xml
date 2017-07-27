@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">online_dictionary</string>
+    <string name="select_search_failed">Can not find the word!</string>
+    <string name="toast_load_data_failed">Loading data failed!</string>
+    <string name="key_is_null_warning">Key in null!</string>
+    <string name="key_has_exist_en">Key has exsisted!</string>
+    <string name="key_has_exist_ch">Key has exsisted!</string>
+    <string name="key_is_full">It is full, pelease delete some of all!</string>
+    <string name="key_add_success">Add successfull!</string>
+    <string name="open_file_failed">It is opened failed!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

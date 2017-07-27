@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/title_new_word"
+                android:scaleType="fitXY"
+                android:background="@color/dic_name"/>
+
+            <ListView
+                android:id="@+id/word_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:background="@color/word_list_unchecked"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:fadingEdgeLength="0dp"
+                android:listSelector="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.63"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/dic_action_bar_background">
+
+                <CheckBox
+                    android:id="@+id/select_mode"
+                    android:layout_width="67dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="27dp"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/selector_select_mode"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="36dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/dictionary_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="37dp"
+                            android:gravity="center_vertical"
+                            android:textSize="24sp"
+                            android:textColor="#FF00B7DC"
+                            android:text="词典"/>
+
+                        <ImageView
+                            android:id="@+id/pronounce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/selector_pronounce"/>
+                    </RelativeLayout>
+
+                    <com.readboy.dict.DictWordView
+                        android:id="@+id/content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="9dp"
+                        android:soundEffectsEnabled="false"
+                        android:tag="MagnifyTagetView"
+                        android:scrollbars="vertical"
+                        android:scrollbarStyle="outsideInset"
+                        android:scrollbarAlwaysDrawVerticalTrack="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/english"
+                        android:layout_marginLeft="62dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?android:buttonBarButtonStyle"
+                        android:background="@drawable/selector_english"/>
+
+                    <Button
+                        android:id="@+id/chinese"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        style="?android:buttonBarButtonStyle"
+                        android:background="@drawable/selector_chinese"/>
+
+                    <Button
+                        android:id="@+id/recite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        style="?android:buttonBarButtonStyle"
+                        android:background="@drawable/selector_recite"/>
+
+                    <Button
+                        android:id="@+id/clear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        style="?android:buttonBarButtonStyle"
+                        android:background="@drawable/selector_clear"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
+

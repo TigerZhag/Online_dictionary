@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	<LinearLayout
+		android:layout_width="593dp"
+		android:layout_height="196dp"
+		android:paddingTop="10dp"
+		android:paddingRight="11dp"
+		android:orientation="horizontal"
+		android:background="@drawable/qucikuang"
+		>
+		
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="5dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="12dp"
+			android:layout_weight="1"
+	        >
+	        
+	        <ScrollView 
+	            android:id="@+id/list_title_scroll"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:scrollbarAlwaysDrawVerticalTrack="true"
+	            >
+			    <TextView android:id="@+id/list_title"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="15dp"
+					android:focusable="true"
+					android:gravity="top"
+					android:textSize="20dp"
+					android:textColor="#ff000000"/>	  	            
+	           
+	        </ScrollView>
+	        
+      
+	    </LinearLayout>
+
+	    
+		<LinearLayout
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+		    <!-- 
+		    <ListView android:id="@+id/list"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="10px"
+				android:fadingEdge="none"
+				android:cacheColorHint="#00000000"
+				android:divider="@null"
+				android:textColor="#ff000000"
+				android:choiceMode="singleChoice"
+				android:listSelector="@drawable/qc_dict_selector"
+			/>
+			 -->
+			<Button 
+			    android:id="@+id/dialog_dict_1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:textSize="20dp"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/dialog_select_dict_bg"
+			    />
+			<Button 
+			    android:id="@+id/dialog_dict_2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:textSize="20dp"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/dialog_select_dict_bg"
+			    />
+			<Button 
+			    android:id="@+id/dialog_dict_3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="0dp"
+			    android:textSize="20dp"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/dialog_select_dict_bg"
+			    />
+		</LinearLayout>
+	    
+  	</LinearLayout>
+  
+
+</FrameLayout>

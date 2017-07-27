@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+apply plugin: 'dream.android-signing'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 160927012
+        versionName "1.1.18_beta"
+    }
+
+    productFlavors {
+        /*pad {
+         applicationId "com.readboy.Dictionary"
+        }*/
+
+        phone {
+            applicationId "com.readboy.mobile.dictionary"
+//            signingConfig signingConfigs.c3Key_c3
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // rest of your app's logic
+    splits {
+        abi {
+            enable true
+            reset()
+            include /*'x86', 'x86_64',*/ 'armeabi-v7a'/*, 'armeabi'*/
+            universalApk false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':library')
+    compile project(':scantranslate')
+//    compile project(':tesstwo')
+//    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+}

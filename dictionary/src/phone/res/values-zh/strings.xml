@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mobile_app_name">查词典</string>
+    <string name="hot_word_search">热门搜索</string>
+    <string name="lately_word_search">最近搜索</string>
+    <string name="button_demo">演示</string>
+    <string name="button_write">写一写</string>
+    <string name="button_rewrite">重写</string>
+    <string name="button_exit">关闭</string>
+    <string name="button_clear">清除历史记录</string>
+    <string name="hot_word_tip">没有找到这个词，快来热门搜索吧~</string>
+    <string name="search_tip">请输入搜索关键字</string>
+    <string name="tip_click_to_search">点击进行搜索</string>
+    <string name="tip_slected_world_is_open">滑屏取词已启动</string>
+    <string name="tip_slected_world_is_close">滑屏取词已关闭</string>
+    <string name="tip_searched_world_failed">找不到这个字词，试试其它词典吧~</string>
+
+    <string name="title_summary">权威 快速 精准 </string>
+
+    <string name="net_not_smooth">网络不畅</string>
+    <string name="no_internet">网络异常,请检查您的网络是否正常连接</string>
+    <string name="error_internet">网络连接失败</string>
+    <string name="generic_error">网络有点慢，请重试</string>
+    <string name="recognizing">识别中</string>
+    <string name="listening">倾听中</string>
+    <string name="voiceInitFail">正在努力连接中...</string>
+    <string name="timeOut">搜索超时了，请重试</string>
+    <string name="netFail">网络异常</string>
+    <string name="resultError">非法结果</string>
+    <string name="noVoice">您好像还没有说话哦！</string>
+    <string name="recordFail">录音启动失败</string>
+
+    <string name="text_size">字体</string>
+    <string name="get_text">取词</string>
+    <string name="search_result">搜索结果</string>
+    
+    <string name="scan_word">扫单词</string>
+    <string name="text_search">文字搜索</string>
+    <string name="voice_search">语音搜索</string>
+    <string name="voice_recognite_tip">说出你要查询的汉字、词语、成语或英文单词</string>
+    <string name="state_recognizing">识别中...</string>
+    <string name="end_speaking">说完了</string>
+    <string name="click_voice_recognite_button_tip">请点击话筒按钮</string>
+
+    <string name="cancel">取消</string>
+
+    <string name="stroke_demo">演示</string>
+    <string name="stroke_write">写一写</string>
+    <string name="stroke_score">得分</string>
+
+    <string name="search_world_failed">没有找到该词~</string>
+
+    <string name="back_text">返回</string>
+    <string name="loading_text">正在加载...</string>
+    <string name="illegal_text_tip">亲，请输入汉字、词语、成语或英文单词哦~~</string>
+</resources>

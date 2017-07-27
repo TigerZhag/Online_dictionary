@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.offline.view.GridBookView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainBg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:splitMotionEvents="false"
+    android:background="@drawable/dict_main_bg"
+     >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="@dimen/mainShuJiaRow1MarginTop"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false"
+             >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusableInTouchMode="true" />
+            <Button
+                android:id="@+id/langwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dict_langwen"
+                android:tag="2" />
+            <Button
+                android:id="@+id/bihua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_bihua"
+                android:tag="0" />
+            <Button
+                android:id="@+id/dongman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_dongman"
+                android:tag="3" />
+            <Button
+                android:id="@+id/syyh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_syyh"
+                android:tag="9" />
+            <Button
+                android:id="@+id/syyy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_syyy"
+                android:tag="10" />
+            <Button
+                android:id="@+id/syhy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_syhy"
+                android:tag="5" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/mainShuJiaRow2MarginBottom"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false"
+             >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusableInTouchMode="true" />
+            <Button
+                android:id="@+id/jianming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dict_jianming"
+                android:tag="7" />
+            <Button
+                android:id="@+id/xdhy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_xdhy"
+                android:tag="6" />
+            <Button
+                android:id="@+id/xshy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_xshy"
+                android:tag="8" />
+            <Button
+                android:id="@+id/chengyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_chengyu"
+                android:tag="1" />
+            <Button
+                android:id="@+id/gdhy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_gdhy"
+                android:tag="4" />
+            <Button
+                android:id="@+id/newdict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dicMarginLeft"
+                android:background="@drawable/dict_new"
+                android:tag="11" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+</com.readboy.offline.view.GridBookView>

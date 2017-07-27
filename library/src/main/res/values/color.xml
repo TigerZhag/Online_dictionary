@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="color_list">
+        <item>0xff000000</item>
+        <item>0xffff00ff</item>
+        <item>0xffff0080</item>
+        <item>0xff0000ff</item>
+        <item>0xffc896ff</item>
+        <item>0xff000000</item>
+    </integer-array>
+    <integer-array name="reversed_color_list">
+        <item>0xffff8080</item>
+        <item>0xff00ff00</item>
+        <item>0xff00ff80</item>
+        <item>0xffffff00</item>
+        <item>0xff7d6900</item>
+        <item>0xff000000</item>
+    </integer-array>
+    <integer-array name="grey_color_list">
+        <item>0xff000000</item>
+        <item>0xfff24f39</item>
+        <item>0xff53c00a</item>
+        <item>0xff008aff</item>
+        <item>0xffc896ff</item>
+        <item>0xff000000</item>
+    </integer-array>
+    <color name="select_text_background">#ffd5f3ff</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="provider_database_name">dict.db</string>
+    <integer name="provider_version">1</integer>
+    <string name="provider_authorities_dictionary">com.readboy.dictionary.provider</string>
+    <string name="provider_path_dict_english_catalog">dict_english_catalog</string>
+    <string name="provider_path_dict_record">dict_record</string>
+
+</resources>

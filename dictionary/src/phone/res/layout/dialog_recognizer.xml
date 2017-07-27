@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.readboy.mobile.dictionary.iflytek.speech.RecognizerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autoAnswer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recognizerLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/stateListener"
+        android:layout_width="260dp"
+        android:layout_height="230dp"
+        android:background="@drawable/voice_bg_2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <!--<TextView
+            android:textSize="22sp"
+            android:layout_margin = "6dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="@string/listening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+        <FrameLayout
+            android:id="@+id/imageView_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speaking_bg" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/mirco_phone_bg" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/voice_recognite_text_tip"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:gravity="center_horizontal"
+            android:text="@string/voice_recognite_tip"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey_9" />
+
+        <FrameLayout
+            android:id="@+id/endRecognizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/end_recognizer_text_bg">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="center_horizontal"
+                android:text="@string/end_speaking"
+                android:textColor="@color/bg_dict_item_bg_stroke_color"
+                android:textSize="15dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/stateRecognizer"
+        android:layout_width="260dp"
+        android:layout_height="230dp"
+        android:background="@drawable/voice_bg_2"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/stateRecognizerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/speaking_bg" />
+
+        <com.readboy.mobile.dictionary.iflytek.speech.RecognizingAnimation
+            android:id="@+id/recognizingAnmiation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/waiting"
+            android:visibility="gone"
+            autoAnswer:count="12"
+            autoAnswer:delayTime="100"
+            autoAnswer:perRotation="30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/state_recognizing"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/stateError"
+        android:layout_width="260dp"
+        android:layout_height="230dp"
+        android:background="@drawable/voice_bg_2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/errorImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/warning_no_network" />
+
+        <TextView
+            android:id="@+id/errorInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</com.readboy.mobile.dictionary.iflytek.speech.RecognizerView>

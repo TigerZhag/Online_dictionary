@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:localTab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fragment_stroke_view_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fragment_stroke_view_sound_1_margin_bottom"
+                android:layout_marginLeft="@dimen/fragment_stroke_view_sound_1_margin_left"
+                android:background="@drawable/playing_sound_animation"
+                android:clickable="true" />
+
+            <!--<com.readboy.depict.widget.DemonstrationGroup
+                android:id="@+id/fragment_stroke_word_write_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>-->
+            <RelativeLayout
+                android:id="@+id/fragment_stroke_word_demo_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/fragment_stroke_word_contain_1_margin_bottom"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/fragment_stroke_word_demo_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/demonstration_middle" />
+
+                <com.readboy.depict.widget.HanziDemonstrationView
+                    android:id="@+id/fragment_stroke_word_demo_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/fragment_stroke_word_demo_bg"
+                    android:layout_alignLeft="@id/fragment_stroke_word_demo_bg"
+                    android:layout_alignRight="@id/fragment_stroke_word_demo_bg"
+                    android:layout_alignTop="@id/fragment_stroke_word_demo_bg" />
+
+                <TextView
+                    android:id="@+id/fragment_stroke_view_play"
+                    android:layout_width="@dimen/fragment_stroke_view_play_width"
+                    android:layout_height="@dimen/fragment_stroke_view_play_height"
+                    android:background="@drawable/btn_play_1"
+                    android:clickable="true"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/fragment_stroke_multi_word_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.readboy.mobile.dictionary.view.LocalHorizontalItemTab
+                        android:id="@+id/fragment_stroke_word_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/fragment_stroke_word_tab_height"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        localTab:tabColor="@color/dark_blue_1" />
+                </FrameLayout>
+
+
+                <com.sen.lib.support.CustomViewPager
+                    android:id="@+id/fragment_stroke_word_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <com.readboy.mobile.dictionary.dict.DictWordView
+                android:id="@+id/fragment_stroke_single_word_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/fragment_stroke_single_word_view_padding_left"
+                android:paddingRight="@dimen/fragment_stroke_single_word_view_padding_right"
+                android:scrollbarStyle="outsideOverlay"
+                android:visibility="gone" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ZhReadBoySingleTouchFullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Main" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Data" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+    <style name="ZhReadBoyTranslutionFullScreenTheme.Scan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+    <style name="common_dialog_check" parent="android:Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <declare-styleable name="CircleImage">
+        <attr name="delayTime" format="integer" />
+        <attr name="perRotation" format="integer" />
+        <attr name="count" format="integer" />
+    </declare-styleable>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/drop_in</item>
+        <item name="android:windowExitAnimation">@anim/drop_out</item>
+    </style>
+    <style name="LocalDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="windowIsTranslucent">true</item>-->
+    </style>
+</resources>

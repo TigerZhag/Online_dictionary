@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_hot_word_2_contain_1_height"
+        android:background="@color/middle_grey"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/fragment_hot_word_2_contain_1_padding_left"
+        android:text="@string/hot_word_tip"
+        android:textColor="@color/dark_red_2"
+        android:textSize="@dimen/fragment_hot_word_2_contain_1_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fragment_hot_word_2_contain_2_margin_left"
+        android:layout_marginRight="@dimen/fragment_hot_word_2_contain_2_margin_right"
+        android:layout_marginTop="@dimen/fragment_hot_word_2_contain_2_margin_top"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/hot_word_search"
+                android:textColor="@color/sub_title_color"
+                android:textSize="@dimen/sub_title_textsize" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/fragment_hot_word_2_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fragment_hot_word_2_gridview_margin_top"
+            android:horizontalSpacing="@dimen/fragment_hot_word_2_gridview_horizontal_spacing"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/fragment_hot_word_2_gridview_vertical_spacing" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

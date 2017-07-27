@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 发音 -->
+    <Button
+        android:id="@+id/dict_sound_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dict_button_read"
+        android:enabled="false" />
+    <!-- 字号 -->
+    <Button
+        android:id="@+id/dict_font_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/dict_button_textsize"
+        android:enabled="false" />
+    <!-- 语速 -->
+    <Button
+        android:id="@+id/dict_speed_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/dict_button_read_speed"
+        android:enabled="false" />
+    <!-- 增加生词 -->
+    <Button
+        android:id="@+id/dict_addnewword_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/dict_button_add_new"
+        android:enabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dicMarginLeft">35dp</dimen>
+    <dimen name="mainShuJiaRow1MarginTop">150dp</dimen>
+    <dimen name="mainShuJiaRow2MarginBottom">100dp</dimen>
+    <dimen name="mainHeight">723dp</dimen>
+    <dimen name="mainWeight">1366dp</dimen>
+    <dimen name="main_exittext_layoutleft">62dp</dimen>
+    <dimen name="main_exittext_width">430dp</dimen>
+    <dimen name="main_exittext_layoutright">20dp</dimen>
+
+    <dimen name="grey_main_search_margin_1">198dp</dimen>
+    <dimen name="grey_main_search_margin_2">36dp</dimen>
+    <dimen name="grey_main_scorll_top_leave_offset">126dp</dimen>
+    <dimen name="grey_expain_margin">153dp</dimen>
+    <dimen name="grey_expain_padding">60dp</dimen>
+    <dimen name="scroll_item_width">168dp</dimen>
+    <dimen name="scroll_item_tab_width">124dp</dimen>
+
+    <dimen name="grey_dict_title_margin_top">58dp</dimen>
+    <dimen name="grey_dict_title_margin_bottom">21dp</dimen>
+    <dimen name="grey_black_board_margin_top">20dp</dimen>
+    <dimen name="grey_black_board_record_grid_title_margin_left">81dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_top">76dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_left">35dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_right">35dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_bottom">100dp</dimen>
+    <dimen name="grey_black_board_record_grid_padding_left">86dp</dimen>
+    <dimen name="grey_black_board_record_grid_padding_right">46dp</dimen>
+
+    <dimen name="grey_content_record_grid_title_margin_left">99dp</dimen>
+    <dimen name="grey_content_record_grid_title_margin_top">32dp</dimen>
+    <dimen name="grey_content_record_grid_padding_left">139dp</dimen>
+    <dimen name="grey_content_record_grid_padding_right">139dp</dimen>
+
+    <dimen name="grey_button_vertical_spacing">24dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="select_search_failed">搜索不到相关词条!</string>
+    <string name="toast_load_data_failed">加载数据失败!</string>
+    <string name="key_is_null_warning">关键字不能为空</string>
+    <string name="key_has_exist_en">生词库中已经存在该单词</string>
+    <string name="key_has_exist_ch">生词库中已经存在该生词</string>
+    <string name="key_is_full">生词库已满，请先删除部分生词!</string>
+    <string name="key_add_success">操作成功,已保存至生词库,记得复习哦!</string>
+    <string name="open_file_failed">打开字典文件失败!</string>
+
+    <string name="null_word_select">请先选择单词</string>
+    <string name="remind_title_text">"温馨提示:"</string>
+    <string name="clear_all_confirm">确认全部清空？</string>
+    <string name="delete_key_word">确认要删除该单词吗？</string>
+    <string name="tip_delete_key">确认删除该生词?</string>
+
+</resources>

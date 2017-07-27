@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.readboy.mobile.dictionary.DictApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/mobile_app_name"
+        tools:replace="android:label">
+
+        <activity
+            android:name="com.readboy.mobile.dictionary.activity.MainActivity"
+            android:configChanges="mcc|mnc"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.readboy.mobile.dictionary.activity.StartActivity"
+            android:configChanges="mcc|mnc"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZhReadBoyTranslutionFullScreenTheme.Main"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity
+            android:name="com.readboy.mobile.dictionary.activity.ScanActivity"
+            android:configChanges="mcc|mnc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZhReadBoyTranslutionFullScreenTheme.Scan"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+
+        <activity
+            android:name="com.readboy.mobile.dictionary.activity.StrokeViewAcitivity"
+            android:configChanges="mcc|mnc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZhReadBoyTranslutionFullScreenTheme.Data"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity
+            android:name="com.readboy.mobile.dictionary.activity.ShowDataActivity"
+            android:configChanges="mcc|mnc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZhReadBoyTranslutionFullScreenTheme.Data"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <provider
+            android:name="com.readboy.mobile.dictionary.provider.DictProvider"
+            android:authorities="com.readboy.mobile.dictionary" />
+
+    </application>
+
+</manifest>

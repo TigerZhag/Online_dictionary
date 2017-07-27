@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <color name="dic_name">#FF6702</color>
+    <color name="dic_action_bar_background">#FF9102</color>
+    <!--<color name="dic_list_background">#dc989496</color>-->
+    <color name="word_list_unchecked">#ffefefef</color>
+    <color name="word_list_pressed">#fffcb830</color>
+    <color name="recite_list_checked">#ffc9f1fe</color>
+    <color name="dic_tiao_background">#FF9102</color>
+    <color name="dic_list_background">#dcefefef</color>
+
+    <color name="light_grey_4">#ebebeb</color>
+    <color name="middle_grey">#f5f5f5</color>
+    <color name="light_blue">#badbf8</color>
+</resources>

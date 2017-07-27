@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="dream.library">
+    <uses-sdk tools:overrideLibrary="com.readboy.depict"/>
+    <application>
+        <provider
+            android:authorities="@string/provider_authorities_dictionary"
+            android:name="com.readboy.library.provider.DictContentProvider"/>
+    </application>
+
+</manifest>

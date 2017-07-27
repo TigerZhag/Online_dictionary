@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_hovered="true"
+          android:state_checked="false"
+          android:drawable="@drawable/select_all_hov"/>
+
+    <item android:state_hovered="true"
+          android:state_checked="true"
+          android:drawable="@drawable/select_all_checked_hov"/>
+
+    <item android:state_pressed="true"
+          android:state_checked="false"
+          android:drawable="@drawable/select_all_checked_bg"/>
+
+    <item android:state_pressed="true"
+          android:state_checked="true"
+          android:drawable="@drawable/select_all_bg"/>
+
+    <item android:state_focused="true"
+          android:state_checked="false"
+          android:drawable="@drawable/select_all_hov"/>
+
+    <item android:state_focused="true"
+          android:state_checked="true"
+          android:drawable="@drawable/select_all_checked_hov"/>
+
+    <item android:state_checked="false"
+          android:drawable="@drawable/select_all_bg"/>
+
+    <item android:state_checked="true"
+          android:drawable="@drawable/select_all_checked_bg"/>
+</selector>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_search_edittext"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/menu_enlarge_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/enlarge_text_button_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="readboy-code"
+                android:text="@string/text_size"
+                android:textColor="@drawable/menu_item_text_selector"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey_9" />
+
+        <LinearLayout
+            android:id="@+id/menu_reduce_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reduce_text_button_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="readboy-code"
+                android:text="@string/text_size"
+                android:textColor="@drawable/menu_item_text_selector"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey_9" />
+
+        <LinearLayout
+            android:id="@+id/menu_select_text"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menu_select_text_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_text_close_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="readboy-code"
+                android:text="@string/get_text"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/bg_search_edittext"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/cancel_text_color"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.readboy.mobile.dictionary.dict.DictWordView
+        android:id="@+id/fragment_stroke_word_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay"
+        android:paddingLeft="@dimen/fragment_stroke_word_content_view_padding_left"
+        android:paddingRight="@dimen/fragment_stroke_word_content_view_padding_right"/>
+
+</FrameLayout>

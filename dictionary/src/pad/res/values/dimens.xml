@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dicMarginLeft">22dp</dimen>
+    <dimen name="mainShuJiaRow1MarginTop">160dp</dimen>
+    <dimen name="mainShuJiaRow2MarginBottom">120dp</dimen>
+
+    <dimen name="grey_main_search_margin_1">198dp</dimen>
+    <dimen name="grey_main_search_margin_2">36dp</dimen>
+    <dimen name="grey_main_scorll_top_leave_offset">126dp</dimen>
+    <dimen name="grey_expain_margin">153dp</dimen>
+    <dimen name="grey_expain_padding">60dp</dimen>
+    <dimen name="scroll_item_width">168dp</dimen>
+    <dimen name="scroll_item_height">70dp</dimen>
+    <dimen name="scroll_item_margin_top">14dp</dimen>
+    <dimen name="scroll_item_tab_width">124dp</dimen>
+
+    <dimen name="grey_dict_title_margin_top">58dp</dimen>
+    <dimen name="grey_dict_title_margin_bottom">41dp</dimen>
+    <dimen name="grey_black_board_margin_top">30dp</dimen>
+    <dimen name="grey_black_board_record_grid_title_margin_left">81dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_top">76dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_left">35dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_right">35dp</dimen>
+    <dimen name="grey_black_board_record_grid_margin_bottom">100dp</dimen>
+    <dimen name="grey_black_board_record_grid_padding_left">86dp</dimen>
+    <dimen name="grey_black_board_record_grid_padding_right">46dp</dimen>
+
+    <dimen name="grey_content_record_grid_title_margin_left">99dp</dimen>
+    <dimen name="grey_content_record_grid_title_margin_top">32dp</dimen>
+    <dimen name="grey_content_record_grid_padding_left">139dp</dimen>
+    <dimen name="grey_content_record_grid_padding_right">139dp</dimen>
+
+    <dimen name="grey_button_vertical_spacing">24dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

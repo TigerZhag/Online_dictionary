@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fragment_word_content_sound"
+        android:layout_width="@dimen/fragment_word_content_sound_width"
+        android:layout_height="@dimen/fragment_word_content_sound_height"
+        android:layout_marginTop="@dimen/fragment_word_content_sound_margin_top"
+        android:layout_marginBottom="@dimen/fragment_word_content_sound_margin_bottom"
+        android:layout_marginLeft="@dimen/fragment_word_content_sound_margin_left"
+        android:background="@drawable/playing_sound_animation"
+        android:clickable="true" />
+
+    <com.readboy.mobile.dictionary.dict.DictWordView
+        android:id="@+id/fragment_word_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay"
+        android:paddingLeft="@dimen/fragment_word_content_view_padding_left"
+        android:paddingRight="@dimen/fragment_word_content_view_padding_right"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
